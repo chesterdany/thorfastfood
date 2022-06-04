@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #ff006e;
+    display: flex;
+    align-items: center;
+}
+
+.div-logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.logo-name {
+    color:#ffbe0b ;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}

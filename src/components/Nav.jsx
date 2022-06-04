@@ -1,8 +1,15 @@
 import React from 'react'
+import logo from "../images/logo.png"
+import "./Nav.css"
 
 const Nav = () => {
   return (
-    <div>nav</div>
+    <div className='navbar'>
+        <div className='div-logo' >
+            <img src={logo} alt="logo" className='logo'/>
+        </div>
+        <span className='logo-name'>Thor</span>
+    </div>
   )
 }
 
